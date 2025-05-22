@@ -97,11 +97,11 @@ cp ~/.profile.old ~/.profile
 ```
 #### fish
 ```
-cp ~/.config/config.fish ~/.config/config.fish.old
-cat profiles/fishprofile >> ~/.config/config.fish
+cp ~/.config/fish/config.fish ~/.config/fish/config.fish.old
+cat profiles/fishprofile >> ~/.config/fish/config.fish
 ```
 If something goes wrong:
 ```
-rm ~/.config/config.fish
-cp ~/.config/config.fish.old ~/.config/config.fish
+rm ~/.config/fish/config.fish
+cp ~/.config/fish/config.fish.old ~/.config/fish/config.fish
 ```
